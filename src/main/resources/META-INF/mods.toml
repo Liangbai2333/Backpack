@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[35.1.8,)"
+license="AGPL v3.0"
+[[mods]]
+modId="backpack"
+version="${file.jarVersion}"
+displayName="Backpack"
+credits="Liangbai"
+authors="Liangbai"
+description='''
+The Minecraft backpack mod.
+'''
+[[dependencies.examplemod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[35.1.8,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4,1.17)"
+    ordering="NONE"
+    side="BOTH"
